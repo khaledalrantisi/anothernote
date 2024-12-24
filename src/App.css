@@ -1,0 +1,49 @@
+/* Center the welcome message and style it */
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Adjust to center vertically */
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+/* Style the navigation bar */
+.top-nav {
+  display: flex;
+  justify-content: space-between; /* Distribute links with space between them */
+  background-color: #f4f4f4;
+  padding: 10px 50px; /* Add padding to the sides to make space */
+  border-bottom: 2px solid #ddd;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1.2rem; /* Slightly larger font for better readability */
+  padding: 5px 15px; /* Adds padding for spacing */
+}
+
+.nav-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.logout-button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.2rem; /* Adjust size for consistency with links */
+}
+
+.logout-button:hover {
+  background-color: #c9302c;
+}

@@ -1,0 +1,45 @@
+/* Example basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(46, 73, 127, 0.78);
+}
+
+.app {
+    text-align: center;
+    padding: 20px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 10px;
+    gap: 15px;
+    border-bottom: 2px solid #000000;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.logout-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c9302c;
+}
